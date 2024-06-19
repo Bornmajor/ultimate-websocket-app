@@ -35,6 +35,17 @@ WebSocket solves these issues by maintaining an open connection between the clie
 4. Navigate to the async/ folder and run php server.php in your terminal to start the WebSocket server.
 5. Open the project in your web browser to start using the chat app.
 
-## Screenshots
+
 ## Dependencies
 Ratchet PHP Library - For WebSocket functionality.
+
+# Demo
+
+## Clip
+
+https://github.com/Bornmajor/ultimate-websocket-app/assets/98744068/04965478-420c-4639-8709-ec8c710e8daa
+
+
+## Screenshot
+![Screenshot (367)](https://github.com/Bornmajor/ultimate-websocket-app/assets/98744068/fd2b302f-a75f-4fa1-aee1-a323c8e43a29)
+![Screenshot (366)](https://github.com/Bornmajor/ultimate-websocket-app/assets/98744068/b5eb5487-5d42-4437-a09e-14d5cad28fb0)
