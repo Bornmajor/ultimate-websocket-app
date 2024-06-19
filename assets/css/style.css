@@ -1,0 +1,200 @@
+
+.btn-primary{
+    background-color: #2e591c;
+    color:'white';
+    border: none;
+    /* font-weight: 800; */
+   
+
+}
+.btn-primary:hover{
+    background-color:green;
+
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+.container-body{
+  display: flex;
+  width: 100%;
+  height: 140vh;
+  position: fixed;
+  
+}
+.sidebar-container{
+    background-color: #f1f1f1;
+    height: 100%;
+    width: 30%;
+}
+.side-chats-container{
+    position: fixed;
+}
+.chat-container{
+    width: 70%;
+    position: relative;
+    
+}
+.sidebar-container{
+    padding:20px;
+}
+
+.sidebar-chat-card{
+    font-size: 18px;
+    font-weight: 600;
+    margin:10px 0;
+    text-decoration: none;
+    color: black;
+}
+/* .sidebar-chat-card a{
+    text-decoration: none;
+} */
+.chat-tab-header{
+    background-color: #f1f1f1;
+    padding:10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left:2px solid white;
+    position:fixed;
+    top: 0;
+    width: 70%;
+}
+
+.chat-tab-header-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile-title-header{
+    font-size: 18px;
+    padding: 0 10px;
+    font-weight: 600;
+   
+}
+.profile-pic-header img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    padding:5px;
+
+}
+.profile-options-header .icon-drop{
+    cursor: pointer;
+}
+.chat-prompt-container{
+    position:fixed;
+    bottom: 0;
+    display: flex;
+    width: 70%;
+    background-color: #f1f1f1;
+    padding:20px;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 2px solid white;
+}
+.chat-input{
+ width: 100%;
+}
+.send-btn{
+/* width: 10%; */
+margin: 10px;
+font-size: 22px;
+
+}
+.sidebar-chat-card{
+    display: flex;
+    align-items: center;
+}
+.sidebar-chat-pic img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    padding:5px;
+
+}
+.sidebar-chat-card div{
+    margin:2px;
+}
+.chat-panel-container{
+    height: 100%;
+    overflow: auto;
+    padding:80px 15px 400px 15px;
+}
+.sender-chat-msg-tab {
+    display: flex;
+    justify-content: flex-end;
+    margin:5px 0;
+}
+.recipient-chat-msg-tab{
+    display: flex;
+    justify-content: flex-start;  
+    margin:5px 0;
+}
+.sender-chat-msg-tab .chat-content{
+    background-color: #02764c;
+    padding: 8px 10px;
+    border-radius: 8px;
+    color: white;
+    max-width: 300px;
+   
+}
+
+.recipient-chat-msg-tab .chat-content{
+    background-color: #a99b02;
+    padding: 8px 10px;
+    border-radius: 8px;
+    color: white;
+    max-width: 300px;
+}
+
+.active-user-section{
+    position: fixed;
+    bottom: 10px;
+    
+}
+.chat-input textarea {
+    resize: none;
+}
+
+/*login*/
+
+.container_login{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin:30px;
+}
+
+.container_welcome{
+    background-color: #f1f1f1;
+    padding:30px;
+    border-radius: 10px;
+}
+/*login*/
+
+.empty_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+.empty_section img{
+    width: 100%;
+    max-width: 450px;
+}
+.container_center{
+    width: 70%;
+    position: relative;
+    padding: 30px;
+
+}
+.send_btn{
+    background-color:transparent;
+    border: none;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "osbor/ultimate-websocket",
+    "description": "Websocket sample app",
+    "authors": [
+        {
+            "name": "Osborn Maja",
+            "email": "98744068+Bornmajor@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "cboden/ratchet": "^0.4.4"
+    }
+}
